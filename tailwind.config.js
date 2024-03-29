@@ -1,0 +1,52 @@
+module.exports = {
+  mode: "jit",
+  content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        gray: {
+          400: "#c4c4c4",
+          600: "#9d7452",
+          "800_01": "#484b4f",
+          "800_99": "#484b4f99",
+          "800_02": "#663031",
+          "800_e5": "#484b4fe5",
+        },
+        white: { A700_01: "#ffffff", A700_3d: "#ffffff3d", A700_a2: "#ffffffa2", A700_b2: "#ffffffb2" },
+        red: { 50: "#faf3ed", "50_1e": "#faf3ed1e", "50_84": "#faf3ed84", "50_59": "#faf3ed59" },
+        black: { 900: "#070710", "900_96": "#07071096", "900_af": "#030303af", "900_d8": "#070710d8" },
+        orange: { 800: "#e86c02", "800_02": "#e76b01", "800_01": "#e07112", "800_cc": "#e86c02cc" },
+        deep_orange: {
+          300: "#e09250",
+          800: "#c1702a",
+          "300_3f": "#e093513f",
+          "100_84": "#efd6c184",
+          "300_99": "#e0935199",
+        },
+        blue_gray: { 100: "#d9d9d9", "100_e0": "#d9d9d9e0" },
+        gray_800_ba: "#663031ba",
+        red_900_e5: "#c31414e5",
+        red_A700: "#cd1010",
+        colors: "#000000",
+      },
+      boxShadow: {
+        xs: "2px 2px  6px -1px #07071023",
+        sm: "0px 2px  2px 0px #0000000f",
+        md: "2px 2px  53px 0px #0000001e",
+        lg: "2px 2px  20px 2px #e093512b",
+      },
+      fontFamily: {
+        cormorant: "Cormorant",
+        montserrat: "Montserrat",
+        lato: "Lato",
+        cormorantgaramond: "Cormorant Garamond",
+        poppins: "Poppins",
+        rambla: "Rambla",
+      },
+      opacity: { 0.9: 0.9 },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};
