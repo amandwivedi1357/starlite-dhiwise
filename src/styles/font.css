@@ -1,0 +1,77 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/CormorantMedium.ttf");
+  font-family: "Cormorant";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/MontserratRomanRegular.ttf");
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/MontserratRomanMedium.ttf");
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/CormorantItalic.ttf");
+  font-family: "Cormorant";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/CormorantGaramondMedium.ttf");
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/CormorantBold.ttf");
+  font-family: "Cormorant";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/CormorantSemiBold.ttf");
+  font-family: "Cormorant";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/LatoRegular.ttf");
+  font-family: "Lato";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PoppinsMedium.ttf");
+  font-family: "Poppins";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RamblaBold.ttf");
+  font-family: "Rambla";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/CormorantGaramondRegular.ttf");
+  font-family: "Cormorant Garamond";
+  font-weight: 400;
+}
